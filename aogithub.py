@@ -22,9 +22,9 @@ __license__ = 'MIT'
 __copyright__ = 'Copyright (c) 2017 Matthias Adamczyk'
 
 ### CONFIGURATION
-GITHUB_API_TOKEN = "fdd3b2c5a5af7ce01b3b8b2c4d5ab2e6ac1424c8" # optional
+GITHUB_API_TOKEN = "" # optional
 """Without a personal access token, GitHub limits the use of the API to 60 request per hour."""
-INTERVAL_SECONDS = 10
+INTERVAL_SECONDS = 60
 """Interval in seconds to check for new issues"""
 CHANNELS = []
 """If you don't want to send notices to all channels sopel joined,
